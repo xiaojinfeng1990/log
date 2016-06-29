@@ -1,0 +1,47 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+}
+ul li{
+    list-style: none;
+}
+span{
+    display: block;
+}
+.tab {
+    margin: 20px auto;
+    width: 360px;
+    border: 1px solid #424242;
+    box-shadow: 3px 3px 10px #424242;
+    border-radius: 10px;
+    padding: 20px;
+}
+.tab h2{
+    height: 40px;
+    background:#cccccc ;
+}
+.tab h2 span{
+    float: left;
+    width: 90px;
+    line-height: 40px;
+    text-align: center;
+}
+.tab ul{
+
+}
+.tab ul li{
+    height: 30px;
+
+}
+.tab ul li.bg{
+    background: lightblue;
+}
+.tab ul li span{
+    float: left;
+    width: 90px;
+    line-height: 30px;
+    text-align: center;
+}
